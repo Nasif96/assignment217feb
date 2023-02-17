@@ -1,0 +1,515 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+
+}
+/*header art design*/
+#header{
+    background-color: rgb(253, 255, 230);
+}
+.parent-header{
+    display: flex;
+    width: 85%;
+    margin: auto;
+    padding-top: 10vh;
+}
+.div1{
+    width: 35%;
+}
+
+/*header art design-LIST*/
+#header ul,li{
+    display: inline;
+}
+#header ul{
+   align-items: right;
+padding-top: 8vh;
+ 
+}
+#header li{
+   margin-left: 5%;
+   font-size: 13px;
+   font-weight: bold;
+
+   
+}
+.container{
+    text-align: right;
+    width: 70%;
+}
+/*header part design-       TEXT   */
+.header-text{
+    font-size: 30px;
+  font-weight: bolder;
+ 
+  
+}
+
+
+.header-2nd{
+    margin-top: 10vh;
+  max-width: 100%;
+    text-align: center;
+
+}
+.header-2nd h1{
+    font-size: 40px;
+    font-weight: bold;
+   
+}
+.header-2nd p{
+    margin-bottom: 1vh;
+    font-size: 11px;
+    opacity: .7;
+}
+.btn-header{
+    margin-top: 3vh;
+    padding: 12px 20px;
+    background-color: rgb(255, 123, 22);
+    border: none;
+    border-radius: 3px;
+    color: white;
+    font-size: 14px;
+}
+
+.image-container{
+ width: 75%;
+    margin: auto;
+    margin-top: 10vh;
+    margin-bottom: 15vh;
+   
+    height: 82vh;
+}
+.image-container img{
+    height: 80vh;
+    width: 100%;
+}
+/*header part design-end*/
+#features{
+    height: 80vh;
+    margin-top: 10vh;
+}
+.body-parent{
+    width: 70%;
+    margin: auto;
+    display: flex;
+}
+
+.image-holder,.text-holder{
+  
+    height: 70vh;
+
+}
+.image-holder{
+    width: 55%;
+}
+.text-holder{
+    width: 45%;
+}
+
+.my-image{
+    display: flex;
+    padding-bottom: 10px;
+}
+
+.images img{
+    width: 93%;
+    border-radius: 5px;
+}
+.text-holder{
+    padding-top: 15%;
+    padding-left: 4%;
+    background-color: #ffffff;
+
+   
+}
+.text-holder p{
+    margin-top: 1vh;
+    margin-bottom: 1vh;
+    font-size: 11px;
+    opacity: .7;
+    text-align: left;   
+}
+/*feature details*/
+#sp img{
+    padding-left: 10px;
+    width: 95%;
+    border-radius: 5px;
+  
+}
+.texts{
+    background-color: rgb(255, 255, 255);
+    border-radius: 3px;
+    padding: 8px;
+    margin-top: 10px;
+    z-index: 5;
+    background-color: #fafafa;
+    
+}
+#feature-details{
+    margin-top: 15vh;
+    margin-bottom: 10vh;
+}
+.feature-button{
+    background-color: rgb(255, 123, 22);
+    padding: 2vh;
+    border-radius: 4px;
+    width: 10%;
+    z-index: 10;
+    position: relative;
+    top: -5vh;
+    left: 60%;
+}
+
+
+
+
+
+/*facts art design*/
+#facts{
+    margin-top: 40vh;
+    width: 80%;
+    margin: auto;
+    margin-top: 40vh;
+}
+#facts p{
+   
+    font-size: 28px;
+    font-weight: bolder;
+}
+.facts-container{
+
+    display: flex;
+ 
+    justify-content: space-evenly;
+}
+.my-facts{
+    width: 15%;
+    border: 1px solid rgb(255, 123, 22);
+    border-radius: 3px;
+    height: 25vh;
+    text-align: center;/*akhane div a text align dsi state img tag o affect hoise center a gse*/
+    margin-top: 10vh;
+}
+.my-facts:hover{
+    background-color: rgb(185, 185, 5);
+    transition: background-color 1s;
+}
+.my-facts img{
+    padding-top: 3vh;
+padding-bottom: 2vh;
+height:6vh ;
+}
+.my-facts h4{
+    color: rgb(139, 138, 138);
+    font-size: 12px;
+    font-weight: bold;
+}
+
+/*sponsor*/
+#sponsors{
+    margin-top: 15vh;
+}
+#sponsors h1,p{
+    text-align: center;
+    
+}
+#sponsors p{
+  
+    margin-bottom: 1vh;
+    font-size: 12px;
+    opacity: .7;
+    
+}
+
+
+.sponsor-container{
+    width: 85%;
+    margin: auto;
+    display: flex;
+    margin-top: 8vh;
+}
+.sponsor-img{
+    width: 12%;
+    margin: auto;/*akhane margin auto diei equally faka aisi,justify-content: space-evenly; deya lageni tobe ata flex  div na otar child,flec ba parent div a justify-content: space-evenly; dile evenly sace hoto
+    justify-content: space-evenly; r margin auto ak na,????find out later!!*/
+
+    
+}
+
+.sponsor-img img{
+    height:5vh ;
+}
+
+
+
+
+
+
+
+
+.my-footer{
+    min-height: 20vh; 
+    background-color: rgb(122, 86, 2);
+     margin-top: 5vh;
+}
+
+
+
+
+
+
+/**resonsive design*/
+@media only screen and (max-width: 768px){
+    
+    #header{
+        width: 100%;
+        background-color: rgb(229, 210, 247);
+    }
+    .parent-header{
+        display: block;
+        max-width: 90%;
+       
+       
+    }
+    
+    .div1{
+        width: 105%;
+    }
+/*header-part*/
+#header ul,li{
+    display: block;
+}
+#header ul{
+   align-items: left;
+   margin-top: 8vh;
+   margin: auto;
+
+ 
+}
+#header li{
+ text-align: center;
+   font-size: 16px;
+   font-weight: bold;
+   
+   background-color: rgb(132, 132, 228);
+ min-width: 100%;
+  
+   border-radius: 5px;
+   align-items: center;
+  
+   padding: 3vh;
+   margin: auto;
+   margin-top: 2vh;
+
+   
+}
+.container{
+    text-align: center;
+    min-width: 90%;
+    
+    align-items: center;
+    margin: auto;
+}
+
+/*header2nd*/
+.header-2nd{
+    margin-top: 10vh;
+  max-width: 100%;
+    text-align: center;
+
+}
+.header-2nd h1{
+    font-size: 30px;
+    font-weight: bold;
+   
+}
+.header-2nd p{
+    margin-bottom: 1vh;
+    font-size: 12px;
+    opacity: .7;
+    max-width: 70%;
+    text-align: center;
+    margin: auto;
+}
+.btn-header{
+    
+    padding: 12px 20px;
+    background-color: rgb(255, 123, 22);
+    border: none;
+    border-radius: 3px;
+    color: white;
+    font-size: 13px;
+    margin: auto;
+    margin-top: 3vh;
+}
+/*header image*/
+.image-container{
+    width: 95%;
+       margin: auto;
+       margin-top: 8vh;
+       margin-bottom: 10vh;
+      
+       height: 70vh;
+   }
+   .image-container img{
+       height: 70vh;
+       width: 100%;
+   }
+   /*2nd section features design*/
+   .body-parent{
+    display: block;
+    width: 98%;
+   }
+   .image-holder{
+    display: flex;
+    width: 100%;
+    height: auto;
+    padding-bottom: 2vh;
+    margin-bottom: 2vh;
+   }
+   .text-holder{
+    margin: none;
+    padding: none;
+    display: block;
+    width: 90%;
+   }
+   .text-holder p{
+    width: 80%;
+   }
+.my-image{
+    
+    padding-bottom: 2vh;
+}
+.text-holder{
+    padding-top: 5%;
+    padding-left: 4%;
+    background-color: #ffffff;
+
+}
+.text-holder p{
+  
+    margin-bottom: 1vh;
+    font-size: 12px;
+    opacity: .7;
+    text-align: left;   
+}
+
+/*
+   
+}fact-art design
+*/
+#feature-detail-id{
+    min-height: 80vh;
+}
+.image-holder{
+    margin-top: 10vh;
+}
+#sp img{
+    
+    width: 95%;
+    border-radius: 5px;
+    margin: auto;
+    height: 80vh;
+}
+
+    
+.texts{
+    background-color: rgb(255, 255, 255);
+    border-radius: 3px;
+    padding: 3px;
+    margin-top: 5px;
+    z-index: 5;
+    background-color: #fafafa;
+    width: 95%;
+    
+}
+.texts h1{
+    font-size: 20px;
+}
+.texts p{
+    width: 100%;
+    font-size: 13px;
+}
+.feature-button{
+    background-color: rgb(255, 123, 22);
+    padding: 2vh;
+    border-radius: 4px;
+    width: 20%;
+    z-index: 10;
+    position: relative;
+    top: -30vh;
+    left: 60%;
+}
+/*facts section design
+*/
+#facts{
+   
+    width: 90%;
+    margin: auto;
+    margin-top: 10vh;
+}
+#facts p{
+   
+    font-size: 24px;
+    font-weight: bolder;
+    margin-bottom: 2vh;
+}
+.facts-container{
+display: block;
+    width: 90%;
+    margin: auto;
+ 
+}
+.my-facts{
+    width: 70%;
+    border: 3px solid rgb(255, 123, 22);
+    border-radius: 3px;
+    height: 35vh;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 2vh;
+}
+.my-facts img{
+    padding-top: 3vh;
+padding-bottom: 2vh;
+height: 52%;
+width: 55%;
+}
+.my-facts h4{
+    color: rgb(139, 138, 138);
+    font-size: 13px;
+    font-weight: bold;
+}
+
+
+
+/*sponsor*/
+#sponsors{
+    margin-top: 8vh;
+}
+#sponsors h1,p{
+    text-align: center; 
+}
+#sponsors p{
+    margin-bottom: 1vh;
+    font-size: 13px;
+    opacity: .8;
+}
+.sponsor-container{
+    width: 100%;
+    margin: auto;
+    display: block;
+    margin-top: 8vh;
+}
+.sponsor-img{
+   width: 35%;
+    margin: auto;
+}
+.sponsor-img img{
+    height:9vh ;
+    width: 100%;
+    margin: auto;
+    margin-bottom: 4vh;
+}}
